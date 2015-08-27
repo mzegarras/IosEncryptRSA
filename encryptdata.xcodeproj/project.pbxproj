@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8AFBF1D1B8EA2650035EE57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AFBF1C1B8EA2650035EE57 /* main.m */; };
+		C8AFBF201B8EA2650035EE57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AFBF1F1B8EA2650035EE57 /* AppDelegate.m */; };
+		C8AFBF231B8EA2650035EE57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AFBF221B8EA2650035EE57 /* ViewController.m */; };
+		C8AFBF261B8EA2650035EE57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8AFBF241B8EA2650035EE57 /* Main.storyboard */; };
+		C8AFBF281B8EA2650035EE57 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8AFBF271B8EA2650035EE57 /* Images.xcassets */; };
+		C8AFBF2B1B8EA2650035EE57 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8AFBF291B8EA2650035EE57 /* LaunchScreen.xib */; };
+		C8AFBF371B8EA2650035EE57 /* encryptdataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AFBF361B8EA2650035EE57 /* encryptdataTests.m */; };
+		C8AFBF4B1B8EC70D0035EE57 /* rsaCert.cer in Resources */ = {isa = PBXBuildFile; fileRef = C8AFBF4A1B8EC70D0035EE57 /* rsaCert.cer */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8AFBF311B8EA2650035EE57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8AFBF0F1B8EA2650035EE57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8AFBF161B8EA2650035EE57;
+			remoteInfo = encryptdata;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C8AFBF171B8EA2650035EE57 /* encryptdata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = encryptdata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8AFBF1B1B8EA2650035EE57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8AFBF1C1B8EA2650035EE57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C8AFBF1E1B8EA2650035EE57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C8AFBF1F1B8EA2650035EE57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C8AFBF211B8EA2650035EE57 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C8AFBF221B8EA2650035EE57 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C8AFBF251B8EA2650035EE57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8AFBF271B8EA2650035EE57 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C8AFBF2A1B8EA2650035EE57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C8AFBF301B8EA2650035EE57 /* encryptdataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = encryptdataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8AFBF351B8EA2650035EE57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8AFBF361B8EA2650035EE57 /* encryptdataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = encryptdataTests.m; sourceTree = "<group>"; };
+		C8AFBF4A1B8EC70D0035EE57 /* rsaCert.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = rsaCert.cer; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8AFBF141B8EA2650035EE57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8AFBF2D1B8EA2650035EE57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8AFBF0E1B8EA2650035EE57 = {
+			isa = PBXGroup;
+			children = (
+				C8AFBF191B8EA2650035EE57 /* encryptdata */,
+				C8AFBF331B8EA2650035EE57 /* encryptdataTests */,
+				C8AFBF181B8EA2650035EE57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8AFBF181B8EA2650035EE57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8AFBF171B8EA2650035EE57 /* encryptdata.app */,
+				C8AFBF301B8EA2650035EE57 /* encryptdataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8AFBF191B8EA2650035EE57 /* encryptdata */ = {
+			isa = PBXGroup;
+			children = (
+				C8AFBF4A1B8EC70D0035EE57 /* rsaCert.cer */,
+				C8AFBF1E1B8EA2650035EE57 /* AppDelegate.h */,
+				C8AFBF1F1B8EA2650035EE57 /* AppDelegate.m */,
+				C8AFBF211B8EA2650035EE57 /* ViewController.h */,
+				C8AFBF221B8EA2650035EE57 /* ViewController.m */,
+				C8AFBF241B8EA2650035EE57 /* Main.storyboard */,
+				C8AFBF271B8EA2650035EE57 /* Images.xcassets */,
+				C8AFBF291B8EA2650035EE57 /* LaunchScreen.xib */,
+				C8AFBF1A1B8EA2650035EE57 /* Supporting Files */,
+			);
+			path = encryptdata;
+			sourceTree = "<group>";
+		};
+		C8AFBF1A1B8EA2650035EE57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8AFBF1B1B8EA2650035EE57 /* Info.plist */,
+				C8AFBF1C1B8EA2650035EE57 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8AFBF331B8EA2650035EE57 /* encryptdataTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8AFBF361B8EA2650035EE57 /* encryptdataTests.m */,
+				C8AFBF341B8EA2650035EE57 /* Supporting Files */,
+			);
+			path = encryptdataTests;
+			sourceTree = "<group>";
+		};
+		C8AFBF341B8EA2650035EE57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8AFBF351B8EA2650035EE57 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8AFBF161B8EA2650035EE57 /* encryptdata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8AFBF3A1B8EA2650035EE57 /* Build configuration list for PBXNativeTarget "encryptdata" */;
+			buildPhases = (
+				C8AFBF131B8EA2650035EE57 /* Sources */,
+				C8AFBF141B8EA2650035EE57 /* Frameworks */,
+				C8AFBF151B8EA2650035EE57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = encryptdata;
+			productName = encryptdata;
+			productReference = C8AFBF171B8EA2650035EE57 /* encryptdata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8AFBF2F1B8EA2650035EE57 /* encryptdataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8AFBF3D1B8EA2650035EE57 /* Build configuration list for PBXNativeTarget "encryptdataTests" */;
+			buildPhases = (
+				C8AFBF2C1B8EA2650035EE57 /* Sources */,
+				C8AFBF2D1B8EA2650035EE57 /* Frameworks */,
+				C8AFBF2E1B8EA2650035EE57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8AFBF321B8EA2650035EE57 /* PBXTargetDependency */,
+			);
+			name = encryptdataTests;
+			productName = encryptdataTests;
+			productReference = C8AFBF301B8EA2650035EE57 /* encryptdataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8AFBF0F1B8EA2650035EE57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "M-Sonic";
+				TargetAttributes = {
+					C8AFBF161B8EA2650035EE57 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C8AFBF2F1B8EA2650035EE57 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = C8AFBF161B8EA2650035EE57;
+					};
+				};
+			};
+			buildConfigurationList = C8AFBF121B8EA2650035EE57 /* Build configuration list for PBXProject "encryptdata" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8AFBF0E1B8EA2650035EE57;
+			productRefGroup = C8AFBF181B8EA2650035EE57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8AFBF161B8EA2650035EE57 /* encryptdata */,
+				C8AFBF2F1B8EA2650035EE57 /* encryptdataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8AFBF151B8EA2650035EE57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8AFBF261B8EA2650035EE57 /* Main.storyboard in Resources */,
+				C8AFBF2B1B8EA2650035EE57 /* LaunchScreen.xib in Resources */,
+				C8AFBF281B8EA2650035EE57 /* Images.xcassets in Resources */,
+				C8AFBF4B1B8EC70D0035EE57 /* rsaCert.cer in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8AFBF2E1B8EA2650035EE57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8AFBF131B8EA2650035EE57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8AFBF231B8EA2650035EE57 /* ViewController.m in Sources */,
+				C8AFBF201B8EA2650035EE57 /* AppDelegate.m in Sources */,
+				C8AFBF1D1B8EA2650035EE57 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8AFBF2C1B8EA2650035EE57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8AFBF371B8EA2650035EE57 /* encryptdataTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8AFBF321B8EA2650035EE57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8AFBF161B8EA2650035EE57 /* encryptdata */;
+			targetProxy = C8AFBF311B8EA2650035EE57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C8AFBF241B8EA2650035EE57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8AFBF251B8EA2650035EE57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C8AFBF291B8EA2650035EE57 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8AFBF2A1B8EA2650035EE57 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8AFBF381B8EA2650035EE57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C8AFBF391B8EA2650035EE57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8AFBF3B1B8EA2650035EE57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = encryptdata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C8AFBF3C1B8EA2650035EE57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = encryptdata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C8AFBF3E1B8EA2650035EE57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = encryptdataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/encryptdata.app/encryptdata";
+			};
+			name = Debug;
+		};
+		C8AFBF3F1B8EA2650035EE57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = encryptdataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/encryptdata.app/encryptdata";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8AFBF121B8EA2650035EE57 /* Build configuration list for PBXProject "encryptdata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8AFBF381B8EA2650035EE57 /* Debug */,
+				C8AFBF391B8EA2650035EE57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8AFBF3A1B8EA2650035EE57 /* Build configuration list for PBXNativeTarget "encryptdata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8AFBF3B1B8EA2650035EE57 /* Debug */,
+				C8AFBF3C1B8EA2650035EE57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C8AFBF3D1B8EA2650035EE57 /* Build configuration list for PBXNativeTarget "encryptdataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8AFBF3E1B8EA2650035EE57 /* Debug */,
+				C8AFBF3F1B8EA2650035EE57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8AFBF0F1B8EA2650035EE57 /* Project object */;
+}
